@@ -14,9 +14,9 @@ cmake 3.15.5
 
 4. rename project files
 - `./rename.sh`
-- `name for repo, kebab case (juce-sandbox): juce-sandbox`
-- `enter name of app, pascal case (JuceSandbox): JuceSandbox`
-- `enter name of app, all caps + snake case (JUCE_SANDBOX): JUCE_SANDBOX`
+- `enter name for repo, kebab case (juce-sandbox): juce-sandbox`
+- `enter name for app, pascal case (JuceSandbox): JuceSandbox`
+- `enter name for app, all caps + snake case (JUCE_SANDBOX): JUCE_SANDBOX`
 
 
 # using repo
