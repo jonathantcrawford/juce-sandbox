@@ -2,13 +2,13 @@
 
 
 oldreponame="juce-sandbox"
-read -p "name for repo, kebab case (juce-sandbox): " newreponame
+read -p "enter name for repo, kebab case (juce-sandbox): " newreponame
 
 oldappname="JuceSandbox"
-read -p "enter name of app, pascal case (JuceSandbox): " newappname
+read -p "enter name for app, pascal case (JuceSandbox): " newappname
 
 oldappcapsname="JUCE_SANDBOX"
-read -p "enter name of app, all caps + snake case (JUCE_SANDBOX): " newappcapsname
+read -p "enter name for app, all caps + snake case (JUCE_SANDBOX): " newappcapsname
 
 
 find . -name 'README.md' -print0 | xargs -0 sed -i "" "s/$oldreponame/$newreponame/g"
