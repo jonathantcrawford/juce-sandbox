@@ -95,6 +95,8 @@ target_compile_definitions(JuceSandbox
 target_link_libraries(JuceSandbox
     PRIVATE
         # JuceSandboxData            # If we'd created a binary data target, we'd link to it here
+        juce::juce_data_structures
+        juce::juce_gui_basics
         juce::juce_gui_extra
     PUBLIC
         juce::juce_recommended_config_flags

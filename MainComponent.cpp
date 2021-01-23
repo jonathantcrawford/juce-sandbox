@@ -3,6 +3,7 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
+    DBG( "MainComponent Constructor" );
     setSize (600, 400);
 }
 
