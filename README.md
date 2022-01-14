@@ -11,8 +11,9 @@ vscode
 - `cd juce-sandbox`
 
 3. set permisions for bash scripts
-- `chmod u+x build.sh`
-- `chmod u+x rename.sh`
+- `chmod u+x scripts`
+- `chmod u+x scripts/build.sh`
+- `chmod u+x scripts/rename.sh`
 
 4. rename project files
 - `scripts/rename.sh`
