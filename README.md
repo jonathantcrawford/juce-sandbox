@@ -11,10 +11,11 @@ vscode
 - `cd juce-sandbox`
 
 3. set permisions for bash scripts
+- `chmod u+x build.sh`
 - `chmod u+x rename.sh`
 
 4. rename project files
-- `./rename.sh`
+- `scripts/rename.sh`
 - `enter name for repo, kebab case (juce-sandbox): juce-sandbox`
 - `enter name for app, pascal case (JuceSandbox): JuceSandbox`
 - `enter name for app, all caps + snake case (JUCE_SANDBOX): JUCE_SANDBOX`
@@ -28,4 +29,7 @@ vscode
 2. set directory to project root
 - `cd juce-sandbox`
 
-3. build w/ vscode
+3. run build command
+- `scripts/build.sh`
+
+

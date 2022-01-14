@@ -20,8 +20,10 @@ find . -name 'Main.cpp' -print0 | xargs -0 sed -i "" "s/$oldappname/$newappname/
 find . -name 'CMakeLists.txt' -print0 | xargs -0 sed -i "" "s/$oldappcapsname/$newappcapsname/g"
 find . -name 'CMakeLists.txt' -print0 | xargs -0 sed -i "" "s/$oldappname/$newappname/g"
 
-find . -name 'rename.sh' -print0 | xargs -0 sed -i "" "s/$oldreponame/$newreponame/g"
-find . -name 'rename.sh' -print0 | xargs -0 sed -i "" "s/$oldappname/$newappname/g"
-find . -name 'rename.sh' -print0 | xargs -0 sed -i "" "s/$oldappcapsname/$newappcapsname/g"
+find . -name 'scripts/rename.sh' -print0 | xargs -0 sed -i "" "s/$oldreponame/$newreponame/g"
+find . -name 'scripts/rename.sh' -print0 | xargs -0 sed -i "" "s/$oldappname/$newappname/g"
+find . -name 'scripts/rename.sh' -print0 | xargs -0 sed -i "" "s/$oldappcapsname/$newappcapsname/g"
+
+find . -name 'scripts/build.sh' -print0 | xargs -0 sed -i "" "s/$oldappname/$newappname/g"
 
 mv ../{$oldreponame,$newreponame}
