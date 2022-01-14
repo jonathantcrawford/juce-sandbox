@@ -59,8 +59,7 @@ juce_generate_juce_header(JuceSandbox)
 
 target_sources(JuceSandbox
     PRIVATE
-        Main.cpp
-        MainComponent.cpp)
+        Main.cpp)
 
 # `target_compile_definitions` adds some preprocessor definitions to our target. In a Projucer
 # project, these might be passed in the 'Preprocessor Definitions' field. JUCE modules also make use
