@@ -1,4 +1,5 @@
 # pre-reqs
+mac os (other environments are untested)
 cmake 3.15.5
 vscode
 
@@ -11,9 +12,7 @@ vscode
 - `cd juce-sandbox`
 
 3. set permisions for bash scripts
-- `chmod u+x scripts`
-- `chmod u+x scripts/build.sh`
-- `chmod u+x scripts/rename.sh`
+- `chmod 755 scripts`
 
 4. rename project files
 - `scripts/rename.sh`
